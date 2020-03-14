@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personagem Ideal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <header>
+        <h1>Hora de descobrir o seu personagem ideal !</h1>
+    </header>
+
+    <section>
+        <div id = "Pergunta">
+            <p>
+                Primeiro, selecione uma Lane : 
+            </p>  
+        </div>
+        <div id = "Campo">
+            <p>
+            <input type="radio" name="radLane" id="radTop" checked>
+            <label for="lbTop" id = "lbTop">Top</label>
+            <input type="radio" name="radLane" id="radMid">
+            <label for="lbMid" id = "lbMid">Mid</label>
+            <input type="radio" name="radLane" id="radAdc">
+            <label for="lbAdc" id = "lbAdc">Adc</label>
+            <input type="radio" name="radLane" id="radSuporte">
+            <label for="lbSuporte" id = "lbSuporte">Suporte</label>
+            <input type="radio" name="radLane" id="radJungle">
+            <label for="lbJungle" id = "lbJungle">Jungle</label>    
+        </p>
+            
+        </div>
+        <div id = 'Botao'>
+            <input type="button" value="Próximo" onclick="Proximo()"> 
+        </div>
+
+        <div id="res">
+
+        </div>
+        
+
+    </section>
+    <div id="texto"></div>
+    <p></p>
+
+    <div id = "Reinc">
+        <input id = "Reiniciar" type="button" value="Reiniciar" onclick ="Reiniciar()">
+    </div>    
+       
+    
+    
+    <footer>
+        <p></p>
+        Por Alex Jun. 
+        <p></p>
+        <a href="https://twitter.com/AlexJunP">Meu Twitter</a>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>

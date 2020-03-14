@@ -1,0 +1,49 @@
+body
+{
+    background: rgb(230, 194, 173);
+}
+header
+{
+    color: white;
+    text-align: center;
+}
+section
+{
+    background: rgb(247, 247, 247);
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+    padding: 15px;
+    font: 20px normal Arial;
+}
+div#texto{
+    width: 500px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font: 35px normal Arial;
+    font-style: oblique;
+    padding: 15px;
+    font: 300 bl;
+    
+}
+input#Reiniciar{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    font: 20px normal Arial;
+    visibility: hidden;
+    
+}
+div#Reinc {
+  
+    text-align: center;
+  
+}
+footer{
+   text-align: center;
+   color:white;
+   font: 15px normal Arial;
+   font-style: italic;
+}
