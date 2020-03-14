@@ -517,7 +517,7 @@ function Resultado ()
             img.setAttribute('src','Twitch.png');
             resultado.appendChild(img);
             resultado.innerHTML +="<p></p>"
-            resultados.innerHTML += "Não sabe se pocionar mas farma bem, sua especialidade é aparecer dando PentaKill. Seu personagem é o Twitch!";
+            resultados.innerHTML += "Não sabe se posicionar mas farma bem, sua especialidade é aparecer dando PentaKill. Seu personagem é o Twitch!";
         break;
         case "Varus" :
             img.setAttribute('src','Varus.png');
