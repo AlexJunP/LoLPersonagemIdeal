@@ -1,0 +1,4 @@
+Como usar:
+Basta abrir o arquivo "Personagem Ideal.html" em algum navegador.
+
+É isso.
